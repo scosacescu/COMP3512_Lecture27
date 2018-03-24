@@ -1,5 +1,6 @@
 #include "Tree.hpp"
 #include "Node.hpp"
+#include "Activity2.hpp"
 
 int main() {
 	

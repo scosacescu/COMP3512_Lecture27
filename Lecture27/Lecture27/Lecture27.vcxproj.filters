@@ -21,9 +21,12 @@
     <ClInclude Include="Tree.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Activity2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TreeTester.cpp">
+    <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -115,11 +115,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Activity2.hpp" />
     <ClInclude Include="Node.hpp" />
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TreeTester.cpp" />
+    <ClCompile Include="Driver.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
