@@ -19,6 +19,10 @@ int main() {
 	myLilTree->addNode(string("7"));
 	myLilTree->print();
 
+	//std::vector<int> v = { 1, 2, 3 };
+	//getMax(v);
+
+
 	cin.get();
 	
 }
