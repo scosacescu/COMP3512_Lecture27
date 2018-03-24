@@ -3,14 +3,14 @@
 
 using namespace std;
 
-template <typename T>
+template <typename T = string>
 class Node {
 public:
 	T datum;
 	Node<T> *leftChild, *rightChild;
 
-	Node<String >(datum) : datum(datum){
-		*leftChild = nullptr;
-		*rightChild = nullptr;
+	Node<T>(T datum) : datum(datum){
+		leftChild = nullptr;
+		rightChild = nullptr;
 	}
 };
